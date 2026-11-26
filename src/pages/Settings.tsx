@@ -1,6 +1,7 @@
 import { setSettings, useStore } from '../store';
 import type { Target } from '../data';
 import { LICENSE } from '../config/license';
+import { useOfflineStatus } from '../offline';
 
 const TARGETS: [Target, string][] = [
   ['N', 'Klasse N – Technik N + Betrieb + Vorschriften'],
@@ -10,6 +11,7 @@ const TARGETS: [Target, string][] = [
 
 export function Settings() {
   const { settings } = useStore();
+  const off = useOfflineStatus();
   return (
     <div class="page">
       <h1>Einstellungen</h1>
@@ -21,6 +23,17 @@ export function Settings() {
             {label}
           </label>
         ))}
+      </section>
+      <section class="panel">
+        <h2>Offline-Daten</h2>
+        {off.total ? (
+          <p>
+            Bilder: {off.done}/{off.total}
+            {off.done === off.total ? ' ✓ vollständig offline verfügbar' : off.running ? ' – werden geladen …' : ` – ${off.failed} fehlgeschlagen, wird beim nächsten Start erneut versucht`}
+          </p>
+        ) : (
+          <p>Fragen und Formelsammlung sind offline verfügbar; Bilder werden nach der Installation geladen.</p>
+        )}
       </section>
       <section class="panel">
         <h2>Über</h2>

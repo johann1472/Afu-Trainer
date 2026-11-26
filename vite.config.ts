@@ -28,9 +28,21 @@ export default defineConfig({
         ],
       },
       workbox: {
-        globPatterns: ['**/*.{js,css,html,json,svg,png,webp,woff2}'],
+        // Katalogbilder (687 Dateien) nicht im Precache: ein einzelner Netzfehler würde sonst die
+        // ganze Installation scheitern lassen. Sie werden zur Laufzeit gecacht und von
+        // src/offline.ts im Hintergrund vorgeladen.
+        globPatterns: ['**/*.{js,css,html,json,png,webp,woff2}'],
+        globIgnores: ['svgs/**'],
+        runtimeCaching: [
+          {
+            urlPattern: ({ url }) => url.pathname.includes('/svgs/'),
+            handler: 'CacheFirst',
+            options: { cacheName: 'katalog-bilder', cacheableResponse: { statuses: [200] } },
+          },
+        ],
         maximumFileSizeToCacheInBytes: 5 * 1024 * 1024,
         cleanupOutdatedCaches: true,
+        clientsClaim: true,
       },
     }),
   ],

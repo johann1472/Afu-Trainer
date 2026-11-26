@@ -8,6 +8,7 @@ import { Formulas } from './pages/Formulas';
 import { Settings } from './pages/Settings';
 import { Placeholder } from './pages/Placeholder';
 import { UpdatePrompt } from './components/UpdatePrompt';
+import { warmImages } from './offline';
 
 const NAV = [
   ['/', 'Start', '🏠'],
@@ -23,7 +24,13 @@ export function App() {
   const [error, setError] = useState<string | null>(null);
   const route = useRoute();
   useEffect(() => {
-    loadData().then(setData, (e) => setError(String(e)));
+    loadData().then(
+      (d) => {
+        setData(d);
+        if (import.meta.env.PROD) warmImages(d).catch((e) => console.error('Bilder-Vorladen', e));
+      },
+      (e) => setError(String(e)),
+    );
   }, []);
 
   let page;
