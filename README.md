@@ -20,6 +20,8 @@ npm run build      # Daten + Typecheck + Produktionsbuild nach dist/
 `sectionId` ist die Position im Kapitelbaum (`t02-06` = Technik, Kapitel 2, Unterkapitel 6), weil die
 Fragennummern nicht eindeutig auf Unterkapitel abbilden.
 
+Nächster Schritt: [docs/PLAN-SCHRITT-2.md](docs/PLAN-SCHRITT-2.md).
+
 Deployment: GitHub Actions → GitHub Pages bei jedem Push auf `main`.
 
 ## Lizenz der Fragen
