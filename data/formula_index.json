@@ -1,0 +1,374 @@
+{
+ "pages": [
+  {
+   "file": "p01.webp",
+   "page": null,
+   "title": "Deckblatt"
+  },
+  {
+   "file": "p02.webp",
+   "page": null,
+   "title": "Hinweis zu Berichtigungen"
+  },
+  {
+   "file": "p03.webp",
+   "page": 1,
+   "title": "AFuV Anlage 1 – Nutzungsbestimmungen"
+  },
+  {
+   "file": "p04.webp",
+   "page": 2,
+   "title": "AFuV Anlage 1 – Tabellarische Übersicht"
+  },
+  {
+   "file": "p05.webp",
+   "page": 3,
+   "title": "AFuV Anlage 1 – Fußnoten"
+  },
+  {
+   "file": "p06.webp",
+   "page": 4,
+   "title": "Rufzeichenplan"
+  },
+  {
+   "file": "p07.webp",
+   "page": 5,
+   "title": "Rufzeichenplan – 2-/3-buchstabige Suffixe"
+  },
+  {
+   "file": "p08.webp",
+   "page": 6,
+   "title": "Rufzeichenplan – Klubstationen u. a."
+  },
+  {
+   "file": "p09.webp",
+   "page": 7,
+   "title": "Rufzeichenplan – Notfunk, Kurzzeit, Befristung"
+  },
+  {
+   "file": "p10.webp",
+   "page": 8,
+   "title": "Rufzeichenplan – Zusätze, Ausbildung, Remote"
+  },
+  {
+   "file": "p11.webp",
+   "page": 9,
+   "title": "IARU-Bandplan 2 m"
+  },
+  {
+   "file": "p12.webp",
+   "page": 10,
+   "title": "IARU-Bandplan 70 cm"
+  },
+  {
+   "file": "p13.webp",
+   "page": 11,
+   "title": "Zehnerpotenzen, Binär, Widerstände, Farbcode"
+  },
+  {
+   "file": "p14.webp",
+   "page": 12,
+   "title": "Reihe/Parallel, Leistung, Wechselspannung"
+  },
+  {
+   "file": "p15.webp",
+   "page": 13,
+   "title": "Spule, Transformator, Kondensator"
+  },
+  {
+   "file": "p16.webp",
+   "page": 14,
+   "title": "Filter, Schwingkreis, Transistor, ZF/Spiegelfrequenz"
+  },
+  {
+   "file": "p17.webp",
+   "page": 15,
+   "title": "Pegel (dB), ERP/EIRP, Antennengewinn"
+  },
+  {
+   "file": "p18.webp",
+   "page": 16,
+   "title": "Rauschen, AM, FM"
+  },
+  {
+   "file": "p19.webp",
+   "page": 17,
+   "title": "Wellenlänge, Reflexion/SWR, Wellenwiderstand"
+  },
+  {
+   "file": "p20.webp",
+   "page": 18,
+   "title": "MUF, Messfehler, Abtasttheorem, Datenrate"
+  },
+  {
+   "file": "p21.webp",
+   "page": 19,
+   "title": "Formelzeichen (1)"
+  },
+  {
+   "file": "p22.webp",
+   "page": 20,
+   "title": "Formelzeichen (2), Konstanten"
+  },
+  {
+   "file": "p23.webp",
+   "page": 21,
+   "title": "Spez. Widerstand, Dielektrizitätszahl"
+  },
+  {
+   "file": "p24.webp",
+   "page": 22,
+   "title": "Kabeldämpfungsdiagramm"
+  }
+ ],
+ "sections": {
+  "t01-01": [
+   11
+  ],
+  "t01-02": [
+   11,
+   15
+  ],
+  "t01-03": [
+   11
+  ],
+  "t02-01": [
+   11,
+   21
+  ],
+  "t02-02": [
+   11,
+   12
+  ],
+  "t02-03": [
+   13
+  ],
+  "t02-04": [
+   13
+  ],
+  "t02-05": [
+   17,
+   20
+  ],
+  "t02-06": [
+   12
+  ],
+  "t02-07": [
+   12,
+   16
+  ],
+  "t02-08": [
+   11
+  ],
+  "t02-09": [
+   12
+  ],
+  "t02-10": [
+   12
+  ],
+  "t02-11": [
+   11,
+   12
+  ],
+  "t03-01": [
+   11,
+   12,
+   21
+  ],
+  "t03-02": [
+   13
+  ],
+  "t03-03": [
+   13
+  ],
+  "t03-04": [
+   13
+  ],
+  "t03-05": [
+   12
+  ],
+  "t03-06": [
+   14
+  ],
+  "t03-07": [
+   12
+  ],
+  "t04-01": [
+   12,
+   13
+  ],
+  "t04-02": [
+   14
+  ],
+  "t04-03": [
+   12,
+   13
+  ],
+  "t04-04": [
+   15,
+   14
+  ],
+  "t04-05": [
+   16
+  ],
+  "t04-06": [
+   14
+  ],
+  "t04-07": [
+   14
+  ],
+  "t04-08": [
+   15
+  ],
+  "t05-01": [
+   16
+  ],
+  "t05-02": [
+   16
+  ],
+  "t05-03": [
+   16
+  ],
+  "t05-04": [
+   18,
+   16
+  ],
+  "t06-01": [
+   14
+  ],
+  "t06-02": [
+   14,
+   16
+  ],
+  "t06-03": [
+   14,
+   16
+  ],
+  "t06-04": [
+   14,
+   15
+  ],
+  "t06-05": [
+   15,
+   12
+  ],
+  "t06-06": [
+   14
+  ],
+  "t06-07": [
+   18,
+   11
+  ],
+  "t06-08": [
+   18
+  ],
+  "t07-01": [
+   17,
+   15
+  ],
+  "t07-02": [
+   15
+  ],
+  "t07-03": [
+   17,
+   22
+  ],
+  "t07-04": [
+   17,
+   13
+  ],
+  "t07-05": [
+   15,
+   22
+  ],
+  "t08-01": [
+   18
+  ],
+  "t08-02": [
+   18
+  ],
+  "t08-03": [
+   17
+  ],
+  "t09-01": [
+   18
+  ],
+  "t09-02": [
+   17
+  ],
+  "t09-03": [
+   12
+  ],
+  "t09-04": [
+   17
+  ],
+  "t09-05": [
+   18
+  ],
+  "t09-06": [
+   18
+  ],
+  "t10-01": [
+   14
+  ],
+  "t10-02": [
+   14,
+   15
+  ],
+  "t11-01": [
+   15
+  ],
+  "t11-02": [
+   15
+  ],
+  "t11-03": [
+   11
+  ],
+  "b03-01": [
+   2,
+   1
+  ],
+  "b03-02": [
+   9,
+   10
+  ],
+  "b04-01": [
+   4,
+   5,
+   6
+  ],
+  "b04-02": [
+   8,
+   7
+  ],
+  "b05-04": [
+   9,
+   10
+  ],
+  "v04-02": [
+   4,
+   5,
+   8
+  ],
+  "v04-03": [
+   8
+  ],
+  "v04-04": [
+   5,
+   6,
+   7
+  ],
+  "v04-05": [
+   2,
+   3
+  ],
+  "v04-06": [
+   8
+  ],
+  "v04-07": [
+   2,
+   3,
+   1
+  ]
+ }
+}
