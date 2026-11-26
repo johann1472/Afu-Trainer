@@ -1,16 +1,15 @@
 #!/usr/bin/env bash
-# Rendert die Seiten der Formelsammlung (Hilfsmittel-PDF) als WebP nach public/formulas/pNN.webp.
-# Benötigt poppler-utils (pdftoppm) und webp (cwebp). Ergebnis wird committet.
+# Rendert die Seiten der Formelsammlung (Hilfsmittel-PDF) als Vektor-SVG nach public/formulas/pNN.svg
+# (scharf bei jeder Zoomstufe). Benötigt poppler-utils (pdftocairo). Ergebnis wird committet.
 set -euo pipefail
 cd "$(dirname "$0")/.."
 PDF=data/raw/Hilfsmittel_12062024.pdf
 OUT=public/formulas
-TMP=$(mktemp -d)
-trap 'rm -rf "$TMP"' EXIT
 mkdir -p "$OUT"
-pdftoppm -r 150 -png "$PDF" "$TMP/p"
-for f in "$TMP"/p-*.png; do
-  n=$(basename "$f" .png); n=${n#p-}; n=$((10#$n))
-  cwebp -quiet -q 80 "$f" -o "$(printf '%s/p%02d.webp' "$OUT" "$n")"
+rm -f "$OUT"/p*.webp "$OUT"/p*.svg
+n=$(pdfinfo "$PDF" | awk '/^Pages:/ {print $2}')
+for i in $(seq 1 "$n"); do
+  pdftocairo -svg -f "$i" -l "$i" "$PDF" "$(printf '%s/p%02d.svg' "$OUT" "$i")"
 done
+npx svgo -q -f "$OUT" --multipass
 ls "$OUT" | wc -l

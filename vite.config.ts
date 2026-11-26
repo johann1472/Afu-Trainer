@@ -19,7 +19,8 @@ export default defineConfig({
         lang: 'de',
         theme_color: '#173f7a',
         background_color: '#101418',
-        display: 'standalone',
+        display: 'fullscreen',
+        display_override: ['fullscreen', 'standalone'],
         orientation: 'any',
         icons: [
           { src: 'icons/icon-192.png', sizes: '192x192', type: 'image/png' },
@@ -31,7 +32,7 @@ export default defineConfig({
         // Katalogbilder (687 Dateien) nicht im Precache: ein einzelner Netzfehler würde sonst die
         // ganze Installation scheitern lassen. Sie werden zur Laufzeit gecacht und von
         // src/offline.ts im Hintergrund vorgeladen.
-        globPatterns: ['**/*.{js,css,html,json,png,webp,woff2}'],
+        globPatterns: ['**/*.{js,css,html,json,png,webp,woff2}', 'formulas/*.svg'],
         globIgnores: ['svgs/**'],
         runtimeCaching: [
           {

@@ -13,7 +13,7 @@ npm run build      # Daten + Typecheck + Produktionsbuild nach dist/
 ```
 
 - `scripts/build-data.ts` – Katalog (`data/raw/`) → `public/data/questions.json`, `tree.json`, Bilder nach `public/svgs/`
-- `scripts/render-formulas.sh` – Formelsammlung-PDF → `public/formulas/pNN.webp` (benötigt `pdftoppm`, `cwebp`; Ergebnis ist committet)
+- `scripts/render-formulas.sh` – Formelsammlung-PDF → `public/formulas/pNN.svg` (Vektor, benötigt `pdftocairo`; Ergebnis ist committet)
 - `data/calc_overrides.json` – manuelle Korrektur der Rechenfragen-Heuristik
 - `data/formula_index.json` – Kapitel (`sectionId`) → Seiten der Formelsammlung (gedruckte Seitennummern)
 

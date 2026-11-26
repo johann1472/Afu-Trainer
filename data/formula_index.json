@@ -1,122 +1,122 @@
 {
  "pages": [
   {
-   "file": "p01.webp",
+   "file": "p01.svg",
    "page": null,
    "title": "Deckblatt"
   },
   {
-   "file": "p02.webp",
+   "file": "p02.svg",
    "page": null,
    "title": "Hinweis zu Berichtigungen"
   },
   {
-   "file": "p03.webp",
+   "file": "p03.svg",
    "page": 1,
    "title": "AFuV Anlage 1 – Nutzungsbestimmungen"
   },
   {
-   "file": "p04.webp",
+   "file": "p04.svg",
    "page": 2,
    "title": "AFuV Anlage 1 – Tabellarische Übersicht"
   },
   {
-   "file": "p05.webp",
+   "file": "p05.svg",
    "page": 3,
    "title": "AFuV Anlage 1 – Fußnoten"
   },
   {
-   "file": "p06.webp",
+   "file": "p06.svg",
    "page": 4,
    "title": "Rufzeichenplan"
   },
   {
-   "file": "p07.webp",
+   "file": "p07.svg",
    "page": 5,
    "title": "Rufzeichenplan – 2-/3-buchstabige Suffixe"
   },
   {
-   "file": "p08.webp",
+   "file": "p08.svg",
    "page": 6,
    "title": "Rufzeichenplan – Klubstationen u. a."
   },
   {
-   "file": "p09.webp",
+   "file": "p09.svg",
    "page": 7,
    "title": "Rufzeichenplan – Notfunk, Kurzzeit, Befristung"
   },
   {
-   "file": "p10.webp",
+   "file": "p10.svg",
    "page": 8,
    "title": "Rufzeichenplan – Zusätze, Ausbildung, Remote"
   },
   {
-   "file": "p11.webp",
+   "file": "p11.svg",
    "page": 9,
    "title": "IARU-Bandplan 2 m"
   },
   {
-   "file": "p12.webp",
+   "file": "p12.svg",
    "page": 10,
    "title": "IARU-Bandplan 70 cm"
   },
   {
-   "file": "p13.webp",
+   "file": "p13.svg",
    "page": 11,
    "title": "Zehnerpotenzen, Binär, Widerstände, Farbcode"
   },
   {
-   "file": "p14.webp",
+   "file": "p14.svg",
    "page": 12,
    "title": "Reihe/Parallel, Leistung, Wechselspannung"
   },
   {
-   "file": "p15.webp",
+   "file": "p15.svg",
    "page": 13,
    "title": "Spule, Transformator, Kondensator"
   },
   {
-   "file": "p16.webp",
+   "file": "p16.svg",
    "page": 14,
    "title": "Filter, Schwingkreis, Transistor, ZF/Spiegelfrequenz"
   },
   {
-   "file": "p17.webp",
+   "file": "p17.svg",
    "page": 15,
    "title": "Pegel (dB), ERP/EIRP, Antennengewinn"
   },
   {
-   "file": "p18.webp",
+   "file": "p18.svg",
    "page": 16,
    "title": "Rauschen, AM, FM"
   },
   {
-   "file": "p19.webp",
+   "file": "p19.svg",
    "page": 17,
    "title": "Wellenlänge, Reflexion/SWR, Wellenwiderstand"
   },
   {
-   "file": "p20.webp",
+   "file": "p20.svg",
    "page": 18,
    "title": "MUF, Messfehler, Abtasttheorem, Datenrate"
   },
   {
-   "file": "p21.webp",
+   "file": "p21.svg",
    "page": 19,
    "title": "Formelzeichen (1)"
   },
   {
-   "file": "p22.webp",
+   "file": "p22.svg",
    "page": 20,
    "title": "Formelzeichen (2), Konstanten"
   },
   {
-   "file": "p23.webp",
+   "file": "p23.svg",
    "page": 21,
    "title": "Spez. Widerstand, Dielektrizitätszahl"
   },
   {
-   "file": "p24.webp",
+   "file": "p24.svg",
    "page": 22,
    "title": "Kabeldämpfungsdiagramm"
   }
